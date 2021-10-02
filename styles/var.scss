@@ -1,0 +1,14 @@
+$background: #F3F3F3;
+$font-color: #3e3e3e;
+$normalize-vertical-rhythm: true;
+$base-font-family: 'Lato', Helvetica Neue, sans-serif;
+$base-unit: 'rem';
+$base-font-size: 20px;
+
+@mixin font-lato {
+  font-family: 'Lato', Helvetica Neue, sans-serif;
+}
+
+@mixin font-title {
+  font-weight: 900;
+}

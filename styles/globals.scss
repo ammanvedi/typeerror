@@ -1,0 +1,9 @@
+@import "./var.scss";
+@import "./node_modules/normalize-scss/sass/normalize/import-now";
+
+html,
+body {
+  @include font-lato;
+  background-color: $background;
+  color: $font-color;
+}
